@@ -1,0 +1,18 @@
+ALGORITHM recurisive-algo
+FUNCTION CharByChar(x,r:CHAR;word : ARRAY_OF STRING[n];) : BOOLEAN
+VAR
+    n:=word.lenght;
+    palindrom:BOOLEAN;
+BEGIN
+        IF (x=r) THEN
+            palindrom:=true;
+        ELSE
+            palindrom:=false;
+            Break;
+        END_IF
+    RETURN value ;
+END
+
+
+
+
